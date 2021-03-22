@@ -1,5 +1,7 @@
 /* Global Style */
-
+body{
+   background-color: #233140;
+}
 /* Divider Style */
 .divider--light,
 .divider--dark {
