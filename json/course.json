@@ -1,7 +1,8 @@
 [
     {
-        "title": "全加器/全減器",
-        "entitle": "Full Adder/Full Reducer",
+        "_id":1,
+        "title": "全加器／全減器",
+        "entitle": "Full Adder / Full Reducer",
         "img": "images/adderreducer.png",
         "details": [{
             "fulltitle":"全加器 Full Adder",
@@ -11,7 +12,7 @@
             "purpose": "",
             "results": ""
         },{
-            "fulltitle":"全加器 Full Reducer",
+            "fulltitle":"全減器 Full Reducer",
             "logicdiagram": "images/fullreducer.png",
             "filmurl": "https://youtu.be/XJCpkUIRE90",
             "ic": "",
@@ -20,6 +21,7 @@
         }]
     },
     {
+        "_id":2,
         "title": "七段顯示器",
         "entitle": "Seven Segment Display",
         "img": "images/seven_segment.png",
@@ -33,8 +35,9 @@
         }]
     },
     {
-        "title": "時脈/正反器",
-        "entitle": "Clock/Flip-Flop",
+        "_id":3,
+        "title": "時脈／正反器",
+        "entitle": "Clock / Flip-Flop",
         "img": "images/clockandffs.png",
         "details": [{
             "fulltitle":"時脈 Clock",
@@ -60,6 +63,7 @@
         }]
     },
     {
+        "_id":4,
         "title": "上數漣波計數器",
         "entitle": "Ripple Counter",
         "img": "images/ripple_counters.png",
@@ -87,6 +91,7 @@
         }]
     },
     {
+        "_id":5,
         "title": "順序加法器",
         "entitle": "Sequential Adder",
         "img": "images/sequentialadder.png",
