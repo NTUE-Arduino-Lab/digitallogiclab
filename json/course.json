@@ -1,0 +1,102 @@
+[
+    {
+        "title": "全加器/全減器",
+        "entitle": "Full Adder/Full Reducer",
+        "img": "images/adderreducer.png",
+        "details": [{
+            "fulltitle":"全加器 Full Adder",
+            "logicdiagram": "images/fulladder.png",
+            "filmurl": "https://youtu.be/WzfK1mW3ZE4",
+            "ic": "",
+            "purpose": "",
+            "results": ""
+        },{
+            "fulltitle":"全加器 Full Reducer",
+            "logicdiagram": "images/fullreducer.png",
+            "filmurl": "https://youtu.be/XJCpkUIRE90",
+            "ic": "",
+            "purpose": "",
+            "results": ""
+        }]
+    },
+    {
+        "title": "七段顯示器",
+        "entitle": "Seven Segment Display",
+        "img": "images/seven_segment.png",
+        "details": [{
+            "fulltitle":"七段顯示器 Seven Segment Display",
+            "logicdiagram": "images/seven_segment.png",
+            "filmurl": "https://youtu.be/e8KBW_GqkpI",
+            "ic": "",
+            "purpose": "",
+            "results": ""
+        }]
+    },
+    {
+        "title": "時脈/正反器",
+        "entitle": "Clock/Flip-Flop",
+        "img": "images/clockandffs.png",
+        "details": [{
+            "fulltitle":"時脈 Clock",
+            "logicdiagram": "images/clock.png",
+            "filmurl": "https://youtube.com/playlist?list=PLpZi1Q0TuudvPudoI2Bl-b2g-sgP_re1H",
+            "ic": "",
+            "purpose": "",
+            "results": ""
+        },{
+            "fulltitle":"JK正反器 JK Flip-Flop",
+            "logicdiagram": "images/jkff.png",
+            "filmurl": "https://youtube.com/playlist?list=PLpZi1Q0TuudvPudoI2Bl-b2g-sgP_re1H",
+            "ic": "",
+            "purpose": "",
+            "results": ""
+        },{
+            "fulltitle":"D型正反器 D Flip-Flop",
+            "logicdiagram": "images/dff.png",
+            "filmurl": "https://youtube.com/playlist?list=PLpZi1Q0TuudvPudoI2Bl-b2g-sgP_re1H",
+            "ic": "",
+            "purpose": "",
+            "results": ""
+        }]
+    },
+    {
+        "title": "上數漣波計數器",
+        "entitle": "Ripple Counter",
+        "img": "images/ripple_counters.png",
+        "details": [{
+            "fulltitle":"十六進上數漣波計數器 Hexadecimal Ripple Counter",
+            "logicdiagram": "images/hexadecimal_ripple_counter.png",
+            "filmurl": "https://youtu.be/1SCWbI19K1E",
+            "ic": "",
+            "purpose": "",
+            "results": ""
+        },{
+            "fulltitle":"十進上數漣波計數器 Decimal Ripple Counter",
+            "logicdiagram": "images/decimal_ripple_counter.png",
+            "filmurl": "https://youtu.be/7THQth0oQQI",
+            "ic": "",
+            "purpose": "",
+            "results": ""
+        },{
+            "fulltitle":"八進上數漣波計數器 Octal Ripple Counter",
+            "logicdiagram": "images/octal_ripple_counter.png",
+            "filmurl": "https://youtu.be/dIR81fGV2DM",
+            "ic": "",
+            "purpose": "",
+            "results": ""
+        }]
+    },
+    {
+        "title": "順序加法器",
+        "entitle": "Sequential Adder",
+        "img": "images/sequentialadder.png",
+        "details": [{
+            "fulltitle":"順序加法器 Sequential Adder",
+            "logicdiagram": "images/sequentialadder.png",
+            "filmurl": "",
+            "ic": "",
+            "purpose": "",
+            "results": ""
+        }]
+    }
+]
