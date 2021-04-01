@@ -1,6 +1,6 @@
 [
     {
-        "_id":1,
+        "_id":0,
         "title": "全加器／全減器",
         "entitle": "Full Adder / Full Subtracter",
         "img": "images/addersubtracter.png",
@@ -24,7 +24,7 @@
         }]
     },
     {
-        "_id":2,
+        "_id":1,
         "title": "七段顯示器",
         "entitle": "Seven Segment Display",
         "img": "images/seven_segment.png",
@@ -40,7 +40,7 @@
         }]
     },
     {
-        "_id":3,
+        "_id":2,
         "title": "時脈／正反器",
         "entitle": "Clock / Flip-Flop",
         "img": "images/clockandffs.png",
@@ -72,7 +72,7 @@
         }]
     },
     {
-        "_id":4,
+        "_id":3,
         "title": "漣波計數器",
         "entitle": "Ripple Counter",
         "img": "images/ripple_counters.png",
@@ -96,7 +96,7 @@
         }]
     },
     {
-        "_id":5,
+        "_id":4,
         "title": "同步計數器",
         "entitle": "Synchronous Counter",
         "img": "images/octal_synchronous_counter.png",
@@ -112,7 +112,7 @@
         }]
     },
     {
-        "_id":6,
+        "_id":5,
         "title": "順序加法器",
         "entitle": "Sequential Adder",
         "img": "images/sequentialadder.png",

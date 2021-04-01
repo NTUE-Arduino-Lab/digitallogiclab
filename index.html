@@ -13,14 +13,16 @@
 </head>
 
 <body>
+  <!-- navigation bar -->
   <nav class="navbar fixed-top navbar-expand-md navbar-dark nav__bg">
     <div class="container">
       <a class="navbar-brand nav__brand" href="https://dtd.ntue.edu.tw/chsyu/">回首頁去！</a>
+      <!-- navigation bar__hambuger -->
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-
+      <!-- navigation bar__navlist -->
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
@@ -34,15 +36,17 @@
     </div>
   </nav>
 
+  <!-- header -->
   <header class="header">
     <div class="container d-flex flex-column align-items-center">
       <img src="images/digitalDesign_tital.png" alt="" class="header__image">
       <h1 class="header__title text-center">數位邏輯設計實驗</h1>
       <hr class="divider--light">
       <p class="header__slogan">Bread Board／ICs／Arduino</p>
-    </div><!-- header -->
+    </div>
   </header>
 
+  <!-- digitallogicallab introduction -->
   <article class="course" id="course">
     <div class="container">
       <h1 class="text-center">簡介</h1>
@@ -56,124 +60,34 @@
             &emsp;&emsp;操作部分從認識電阻與IC、麵包板與電源供應器的使用、與焊接電路開始，逐步建立學生實作的基礎能力。之後學習Arduino實作，並學習如何將Arduino與麵包板IC電路整合設計與操作。
           </p>
         </div>
-      </div><!-- row -->
-    </div><!-- container -->
+      </div>
+    </div>
   </article>
 
+  <!-- course introduction -->
   <article class="resume" id="resume">
     <div class="container d-flex flex-column align-items-center">
       <h1>課程內容</h1>
       <hr class="divider--light">
-      <div class="row course_layout">
-        <!-- course start -->
-        <!-- <div class="mt-4 col-md-4 col-sm-6 course_cell">
-          <div class="course_title color_bud">
-            全加器<br />Full Adder
-          </div>
-          <div class="course_logicdiagram">
-            <a href="https://youtu.be/WzfK1mW3ZE4" class="course__link" target="_blank">
-              <img src="images/fulladder.png" alt="" class="course__image">
-              <p class="color_bud"></p>
-            </a>
-          </div>
-        </div>
-        <div class="mt-4 col-md-4 col-sm-6 course_cell">
-          <div class="course_title color_tea">
-            七段顯示器<br />Seven Segment Display
-          </div>
-          <div class="course_logicdiagram">
-            <a href="https://youtu.be/e8KBW_GqkpI" class="course__link" target="_blank">
-              <img src="images/seven_segment.png" alt="" class="course__image">
-              <p class="color_tea"></p>
-            </a>
-          </div>
+      <!-- course dynamic create start -->
+      <div class="row course_layout"></div>
+      <!-- course dynamic create end -->
+    </div>
+  </article>
 
-        </div>
-        <div class="mt-4 col-md-4 col-sm-6 course_cell">
-          <div class="course_title color_carrot">
-            全減器<br />Full Reducer
-          </div>
-          <div class="course_logicdiagram">
-            <a href="https://youtu.be/XJCpkUIRE90" class="course__link" target="_blank">
-              <img src="images/fullreducer.png" alt="" class="course__image">
-              <p class="color_carrot"></p>
-            </a>
-          </div>
-
-        </div>
-        <div class="mt-4 col-md-4 col-sm-6 course_cell">
-          <div class="course_title color_tea">
-            時脈/正反器<br />Clock/Flip-Flop
-          </div>
-          <div class="course_logicdiagram">
-            <a href="https://youtube.com/playlist?list=PLpZi1Q0TuudvPudoI2Bl-b2g-sgP_re1H" class="course__link"
-              target="_blank">
-              <img src="images/clockandffs.png" alt="" class="course__image">
-              <p class="color_tea"></p>
-            </a>
-          </div>
-
-        </div>
-        <div class="mt-4 col-md-4 col-sm-6 course_cell">
-          <div class="course_title color_bud">
-            十六進上數漣波計數器<br />Hexadecimal Ripple Counter
-          </div>
-          <div class="course_logicdiagram">
-            <a href="https://youtu.be/1SCWbI19K1E" class="course__link" target="_blank">
-              <img src="images/hexadecimal_ripple_counter.png" alt="" class="course__image">
-              <p class="color_bud"></p>
-            </a>
-          </div>
-        </div>
-        <div class="mt-4 col-md-4 col-sm-6 course_cell">
-          <div class="course_title color_tea">
-            十進上數漣波計數器<br />Decimal Ripple Counter
-          </div>
-          <div class="course_logicdiagram">
-            <a href="https://youtu.be/7THQth0oQQI" class="course__link" target="_blank">
-              <img src="images/decimal_ripple_counter.png" alt="" class="course__image">
-              <p class="color_tea"></p>
-            </a>
-          </div>
-        </div>
-        <div class="mt-4 col-md-4 col-sm-6 course_cell">
-          <div class="course_title  color_bud">
-            順序加法器<br />Sequential Adder
-          </div>
-          <div class="course_logicdiagram">
-            <a href="" class="course__link" target="_blank">
-              <img src="images/sequentialadder.png" alt="" class="course__image">
-              <p class="color_bud"></p>
-            </a>
-          </div>
-
-        </div>
-        <div class="mt-4 col-md-4 col-sm-6 course_cell">
-          <div class="course_title color_carrot">
-            八進上數漣波計數器<br />Octal Ripple Counter
-          </div>
-          <div class="course_logicdiagram">
-            <a href="https://youtu.be/dIR81fGV2DM" class="course__link" target="_blank">
-              <img src="images/octal_ripple_counter.png" alt="" class="course__image">
-              <p class="color_carrot"></p>
-            </a>
-          </div>
-        </div> -->
-        <!-- course end -->
-      </div>
-    </div><!-- container -->
-  </article><!-- resume -->
-
+  <!-- footer -->
+  <!-- footer__above -->
   <footer class="footer">
     <div class="footer__above py-5">
       <div class="container">
         <div class="row">
+          <!-- footer__above__address -->
           <div class="col-md-8" style="display:flex;align-items:center;">
             <div class="footer__description">
               臺北市和平東路二段134號，國立臺北教育大學 數位科技設計學系
             </div>
           </div>
-
+          <!-- footer__above__contactlink -->
           <ul class="footer__list col-md-4">
             <li class="footer__item"><a href="https://www.facebook.com/chisamyu" class="footer__link"><i
                   class="fab fa-facebook-f"></i></a></li>
@@ -182,21 +96,26 @@
             <li class="footer__item"><a href="https://tw.linkedin.com/pub/chi-shan-yu/103/235/a61"
                 class="footer__link"><i class="fab fa-linkedin-in"></i></a></li>
           </ul>
-        </div><!-- footer__above-layout -->
-      </div><!-- container -->
-    </div><!-- footer__above -->
-
+        </div>
+      </div>
+    </div>
+    <!-- footer__below -->
     <div class="footer__below">
       <div class="container">
         <h6>
-          製作：陳鈺文、沈桓民 &copy; Copyright All rights reserved.
+          本課程網頁由 陳鈺文、沈桓民 製作 &copy; Copyright All rights reserved. 
         </h6>
-      </div><!-- container -->
-    </div><!-- footer__below -->
+      </div>
+    </div>
   </footer>
+
+  <!-- jquery  -->
   <script src="js/jquery.min.js"></script>
+  <!-- bootstrap js -->
   <script src="js/bootstrap.min.js"></script>
+  <!-- nav animation -->
   <script src="js/scroll.js"></script>
+  <!-- course dynamic creation-->
   <script src="js/index.js"></script>
 </body>
 

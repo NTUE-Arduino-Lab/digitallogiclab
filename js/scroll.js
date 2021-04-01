@@ -1,4 +1,5 @@
 $(document).ready(function () {
+  //滾動頁面導覽列會縮放
   $(window)
     .scroll(function () {
       if ($(this).scrollTop() >= 200) {
