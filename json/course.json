@@ -73,7 +73,7 @@
     },
     {
         "_id":4,
-        "title": "上數漣波計數器",
+        "title": "漣波計數器",
         "entitle": "Ripple Counter",
         "img": "images/ripple_counters.png",
         "colorclass":"color_tea",
@@ -93,10 +93,18 @@
             "ic": "74LS00、74LS112、LED燈、電阻、排組、指撥開關",
             "purpose": "",
             "results": ""
-        },{
-            "courseclass":"light",
-            "fulltitle":"八進上數漣波計數器 Octal Ripple Counter",
-            "logicdiagram": "images/octal_ripple_counter.png",
+        }]
+    },
+    {
+        "_id":5,
+        "title": "同步計數器",
+        "entitle": "Synchronous Counter",
+        "img": "images/octal_synchronous_counter.png",
+        "colorclass":"color_tea",
+        "details": [{
+            "courseclass":"dark",
+            "fulltitle":"八進上數同步計數器 Octal Synchronous Counter",
+            "logicdiagram": "images/octal_synchronous_counter.png",
             "filmurl": "https://youtu.be/dIR81fGV2DM",
             "ic": "74LS00、74LS08、74LS112、LED燈、電阻、排組、指撥開關",
             "purpose": "",
@@ -104,7 +112,7 @@
         }]
     },
     {
-        "_id":5,
+        "_id":6,
         "title": "順序加法器",
         "entitle": "Sequential Adder",
         "img": "images/sequentialadder.png",

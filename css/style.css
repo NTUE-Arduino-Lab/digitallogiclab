@@ -176,7 +176,7 @@ a:hover{
 .course__link:hover {
    transform: translate(-2px,-2px);
    transition: .25s ease-in-out; 
-   filter: drop-shadow(10px 10px 7px rgba(0, 0, 0, 0.5));
+   filter: drop-shadow(3px 3px 3px rgba(0, 0, 0, 0.5));
 }
 .course_cell div{
    width: 280px;
@@ -434,5 +434,5 @@ a:hover{
 .diagrambox:hover{
    transform: translate(-2px,-2px);
    transition: .25s ease-in-out; 
-   filter: drop-shadow(10px 10px 7px rgba(0, 0, 0, 0.5));
+   filter: drop-shadow(3px 3px 3px rgba(0, 0, 0, 0.5));
 }
