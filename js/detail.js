@@ -5,7 +5,7 @@ $(document).ready(function () {
 
   $.ajax({
     type: "get",
-    url: "../json/course.json",
+    url: "https://ntue-arduino-lab.github.io/digitallogiclab/json/course.json",
     dataType: "json",
     success: function (data) {
       //生成實驗內容詳細
