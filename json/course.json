@@ -10,7 +10,7 @@
             "fulltitle":"全加器 Full Adder",
             "logicdiagram": "images/fulladder.png",
             "filmurl": "https://youtu.be/WzfK1mW3ZE4",
-            "ic": "74LS86(XOR) x 1、74LS08(AND) x 1、74LS32(OR) x 1、220Ω電阻  x 2、LED x 2、KΩ排組x 1、4pin DIP-Switch x 1",
+            "ic": "74LS86(XOR) x 1、74LS08(AND) x 1、74LS32(OR) x 1、220Ω電阻 x 2、LED x 2、KΩ排組x 1、4pin DIP-Switch x 1",
             "purpose": "了解二進位中加法運算及進位機制。",
             "results": "製作全加器，輸入三訊號為被加數A及加數B、以及進位數C，觀察運算後結果。"
         },{
@@ -18,7 +18,7 @@
             "fulltitle":"全減器 Full Subtracter",
             "logicdiagram": "images/fullsubtracter.png",
             "filmurl": "https://youtu.be/XJCpkUIRE90",
-            "ic": "74LS86(XOR) x 1、74LS08(AND) x 1、74LS32(OR) x 1、74LS02(NOT) x 1、220Ω電阻  x 2、LED x 2、1KΩ排組x 1、4pin DIP-Switch x 1",
+            "ic": "74LS86(XOR) x 1、74LS08(AND) x 1、74LS32(OR) x 1、74LS02(NOT) x 1、220Ω電阻 x 2、LED x 2、1KΩ排組 x 1、4pin DIP-Switch x 1",
             "purpose": "了解二進位中減法運算及借位機制。",
             "results": "製作全減器，輸入三訊號為被減數A及減數B、以及借位數C，觀察運算後結果。"
         }]
@@ -34,7 +34,7 @@
             "fulltitle":"七段顯示器 Seven Segment Display",
             "logicdiagram": "images/seven_segment.png",
             "filmurl": "https://youtu.be/e8KBW_GqkpI",
-            "ic": "74LS47 x 1、7-seg LED x 1、220Ω電阻  x 8、1KΩ排組 x 1、4pin DIP-Switch x 1",
+            "ic": "74LS47 x 1、7-seg LED x 1、220Ω電阻 x 8、1KΩ排組 x 1、4pin DIP-Switch x 1",
             "purpose": "了解七段顯示器運作方式。",
             "results": "以74LS47元件進行七段顯示器控制，並操作4pin DIP-Switch設定訊號，依續顯示0~9數字。"
         }]
@@ -50,25 +50,25 @@
             "fulltitle":"時脈 Clock（SR閂鎖 SR Latch）",
             "logicdiagram": "images/clock.png",
             "filmurl": "https://youtu.be/8Ra3l-QJCvE",
-            "ic": "74LS00(NAND) x 2、220Ω電阻  x 1、LED x 1、1KΩ排組x 1、4pin DIP-Switch x 1",
+            "ic": "74LS00(NAND) x 2、220Ω電阻 x 1、LED x 1、1KΩ排組 x 1、4pin DIP-Switch x 1",
             "purpose": "熟悉閂鎖及正反器運作。",
-            "results": "製作出SR正反器產生時脈並測量真值表。"
+            "results": "製作出SR閂鎖產生時脈並測量真值表。"
         },{
             "courseclass":"dark",
             "fulltitle":"JK正反器 JK Flip-Flop",
             "logicdiagram": "images/jkff.png",
             "filmurl": "https://youtu.be/-zgBhI1hS9g",
-            "ic": "74LS00(NAND) x 2、74LS112(JK FF) x 1、220Ω電阻  x 2、LED x 2、1KΩ排組x 2、4pin DIP-Switch x 2",
+            "ic": "74LS00(NAND) x 2、74LS112(JK FF) x 1、220Ω電阻 x 2、LED x 2、1KΩ排組 x 2、4pin DIP-Switch x 2",
             "purpose": "熟悉JK型正反器運作。",
-            "results": "SR正反器作為時脈產生器，進行JK正反器實驗並測量真值表。"
+            "results": "以SR閂鎖產生時脈，進行JK正反器實驗並測量真值表。"
         },{
             "courseclass":"light",
             "fulltitle":"D型正反器 D Flip-Flop",
             "logicdiagram": "images/dff.png",
             "filmurl": "https://youtu.be/wFPujGXpnJs",
-            "ic": "74LS00(NAND) x 2、74LS74(D FF) x 1、220Ω電阻  x 2、LED x 2、1KΩ排組x 2、4pin DIP-Switch x 2",
+            "ic": "74LS00(NAND) x 2、74LS74(D FF) x 1、220Ω電阻 x 2、LED x 2、1KΩ排組 x 2、4pin DIP-Switch x 2",
             "purpose": "熟悉D型正反器運作。",
-            "results": "SR正反器作為時脈產生器，進行D正反器實驗並測量真值表。"
+            "results": "以SR閂鎖產生時脈，進行D正反器實驗並測量真值表。"
         }]
     },
     {
@@ -82,15 +82,15 @@
             "fulltitle":"十六進上數漣波計數器 Hexadecimal Ripple Counter",
             "logicdiagram": "images/hexadecimal_ripple_counter.png",
             "filmurl": "https://youtu.be/1SCWbI19K1E",
-            "ic": "74LS00(NAND) x 1、74LS112(JK FF) x 2、220Ω電阻  x 5、LED x 5、1KΩ排組x 1、4pin DIP-Switch x 1",
+            "ic": "74LS00(NAND) x 1、74LS112(JK FF) x 2、220Ω電阻 x 5、LED x 5、1KΩ排組 x 1、4pin DIP-Switch x 1",
             "purpose": "熟悉非同步計數器運作原理。",
-            "results": "以RS正反器產生時脈，並以四組JK正反器連接，實作出16進位非同步上數計數器功能。"
+            "results": "以SR閂鎖產生時脈，並以四組JK正反器連接，實作出16進位非同步上數計數器功能。"
         },{
             "courseclass":"dark",
             "fulltitle":"十進上數漣波計數器 Decimal Ripple Counter",
             "logicdiagram": "images/decimal_ripple_counter.png",
             "filmurl": "https://youtu.be/7THQth0oQQI",
-            "ic": "74LS00(NAND) x 1、74LS112(JK FF) x 2、74LS08(AND) x 1、220Ω電阻  x 5、LED x 5、1KΩ排組x 1、4pin DIP-Switch x 1",
+            "ic": "74LS00(NAND) x 1、74LS112(JK FF) x 2、74LS08(AND) x 1、220Ω電阻 x 5、LED x 5、1KΩ排組 x 1、4pin DIP-Switch x 1",
             "purpose": "熟悉非同步計數器運作原理。",
             "results": "接續16進位漣波計數器實驗，增設AND閘運算，當數字大於10進行Clear，達到10進位計數功能。"
         }]
@@ -106,9 +106,9 @@
             "fulltitle":"八進上數同步計數器 Octal Synchronous Counter",
             "logicdiagram": "images/octal_synchronous_counter.png",
             "filmurl": "https://youtu.be/dIR81fGV2DM",
-            "ic": "74LS00(NAND) x 1、74LS112(JK FF) x 2、74LS08(AND) x 1、220Ω電阻  x 4、LED x 4、1KΩ排組x 1、4pin DIP-Switch x 1",
+            "ic": "74LS00(NAND) x 1、74LS112(JK FF) x 2、74LS08(AND) x 1、220Ω電阻 x 4、LED x 4、1KΩ排組 x 1、4pin DIP-Switch x 1",
             "purpose": "熟悉同步計數器運作原理。",
-            "results": "以RS正反器產生時脈，三組JK正反器實作出8進位同步計數器。"
+            "results": "以SR閂鎖產生時脈，三組JK正反器實作出8進位同步計數器。"
         }]
     },{
         "_id":5,
@@ -121,9 +121,9 @@
             "fulltitle":"狀態機 State Machine",
             "logicdiagram": "images/statemachine.png",
             "filmurl": "https://youtu.be/Y7Fm5O0hSjg",
-            "ic": "74LS00(NAND) x 1、74LS02(NOT) x 1、74LS08(AND) x 2、74LS86(XOR) x 1、74LS112(JK FF) x 1、220Ω電阻  x 3、LED x 3、1KΩ排組x 1、4pin DIP-Switch x 1",
-            "purpose": "",
-            "results": ""
+            "ic": "74LS00(NAND) x 1、74LS02(NOT) x 1、74LS08(AND) x 2、74LS86(XOR) x 1、74LS112(JK FF) x 1、220Ω電阻 x 3、LED x 3、1KΩ排組 x 2、4pin DIP-Switch x 2",
+            "purpose": "熟悉狀態機運作原理。",
+            "results": "依照題目所示狀態圖，以SR閂鎖產生時脈，二組JK正反器實現此同步順序邏輯電路。"
         }]
     },
     {
@@ -136,10 +136,10 @@
             "courseclass":"dark",
             "fulltitle":"順序加法器 Sequential Adder",
             "logicdiagram": "images/sequentialadder.png",
-            "filmurl": "",
-            "ic": "74LS00、74LS08、74LS32、74LS86、74LS74、LED燈、電阻、排組、指撥開關",
-            "purpose": "",
-            "results": ""
+            "filmurl": "https://youtu.be/FpY6VqKJCaY",
+            "ic": "74LS00(NAND) x 1、74LS08(AND) x 2、74LS32(OR) x 1、74LS86(XOR) x 1、74LS74(D FF) x 1、220Ω電阻 x 4、LED x 4、1KΩ排組 x 1、4pin DIP-Switch x 1",
+            "purpose": "熟悉順序加法器運作原理。",
+            "results": "將全加器與一組D型正反器組合在一起，進行連續多位元加法。"
         }]
     }
 ]
