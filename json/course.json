@@ -121,7 +121,7 @@
             "fulltitle":"狀態機 State Machine",
             "logicdiagram": "images/statemachine.png",
             "filmurl": "https://youtu.be/Y7Fm5O0hSjg",
-            "ic": "74LS00(NAND) x 1、74LS02(NOT) x 1、74LS08(AND) x 1、74LS86(XOR) x 1、74LS112(JK FF) x 1、220Ω電阻  x 3、LED x 3、1KΩ排組x 1、4pin DIP-Switch x 1",
+            "ic": "74LS00(NAND) x 1、74LS02(NOT) x 1、74LS08(AND) x 2、74LS86(XOR) x 1、74LS112(JK FF) x 1、220Ω電阻  x 3、LED x 3、1KΩ排組x 1、4pin DIP-Switch x 1",
             "purpose": "",
             "results": ""
         }]
