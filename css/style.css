@@ -3,7 +3,7 @@ body{
    background-color: #233140;
    display: grid;
    height: 100vh;
-   grid-template-rows: auto 223px;
+   /* grid-template-rows: auto 223px; */
 }
 a{
    text-decoration: none;
@@ -326,6 +326,9 @@ footer{
 
 /* Detail Page */
 /* Detail-Course Style */
+.detailBody{
+   grid-template-rows: auto 223px;
+}
 .detail {
    padding-top: 22px;
    background-color: #fff;
