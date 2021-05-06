@@ -152,7 +152,7 @@
             "courseclass":"dark",
             "fulltitle":"按鈕控制七段顯示器",
             "logicdiagram": "images/sevensegwithbutton.png",
-            "filmurl": "https://youtu.be/T_Qi-jHs3OE",
+            "filmurl": "https://youtu.be/fv_YNPAof4Y",
             "ic": "Arduino UNO板 x 1、按鈕 x 1、7-seg LED x 1、220Ω電阻 x 7",
             "purpose": "熟悉使用Arduino控制七段顯示器。",
             "results": "以Arduino板及程式碼進行七段顯示器控制，操作按鈕控制訊號，依續顯示0~9數字。"
