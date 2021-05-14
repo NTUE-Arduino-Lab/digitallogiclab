@@ -144,8 +144,8 @@
     },
     {
         "_id":7,
-        "title": "數位輸出/輸入",
-        "entitle": "Digital Input/Output",
+        "title": "數位輸出 / 輸入",
+        "entitle": "Digital Input / Output",
         "img": "images/digitalinputoutput.png",
         "colorclass":"color_bud",
         "details": [{
