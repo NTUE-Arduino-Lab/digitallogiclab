@@ -165,5 +165,61 @@
             "purpose": "熟悉使用Arduino控制LED點矩陣。",
             "results": "以Arduino板及程式碼進行LED點矩陣控制，操作按鈕控制訊號，顯示不同圖案。"
         }]
+    },
+    {
+        "_id":8,
+        "title": "類比介面",
+        "entitle": "Analog Interface",
+        "img": "images/analogInterface.png",
+        "colorclass":"color_bud",
+        "details": [{
+            "courseclass":"light",
+            "fulltitle":"可變電阻控制LED",
+            "logicdiagram": "images/variableResistor.png",
+            "filmurl": "https://youtu.be/NUShNWA82Sc",
+            "ic": "Arduino UNO板 x 1、可變電阻 x 1、LED x 1、220Ω電阻 x 1",
+            "purpose": "熟悉使用Arduino類比介面與可變電阻",
+            "results": "以Arduino板及程式碼進行設定，操作可變電阻改變輸入的類比訊號，調整LED閃爍的頻率。"
+        },{
+            "courseclass":"dark",
+            "fulltitle":"光敏電阻控制LED",
+            "logicdiagram": "images/photoresistor.png",
+            "filmurl": "https://youtu.be/k3DSc-HmceA",
+            "ic": "Arduino UNO板 x 1、光敏電阻 x 1、LED x 1、220Ω電阻 x 2",
+            "purpose": "熟悉使用Arduino類比介面與光敏電阻。",
+            "results": "以Arduino板及程式碼進行設定，控制光源大小以改變光敏電阻輸入的類比訊號，調整LED的亮度。"
+        }]
+    },
+    {
+        "_id":9,
+        "title": "蜂鳴器",
+        "entitle": "Buzzer",
+        "img": "images/buzzers.png",
+        "colorclass":"color_bud",
+        "details": [{
+            "courseclass":"light",
+            "fulltitle":"蜂鳴器調整音量",
+            "logicdiagram": "images/buzzerVolume.png",
+            "filmurl": "https://youtu.be/hb4kOciKVH0",
+            "ic": "Arduino UNO板 x 1、蜂鳴器 x 1、可變電阻 x 1",
+            "purpose": "熟悉使用Arduino控制蜂鳴器音量",
+            "results": "以Arduino板及程式碼控制蜂鳴器播出的聲音，操作可變電阻改變電阻值，調整蜂鳴器的音量。"
+        },{
+            "courseclass":"dark",
+            "fulltitle":"LED顯示目前蜂鳴器聲音音階",
+            "logicdiagram": "images/buzzerLedScale.png",
+            "filmurl": "https://youtu.be/aqUOwPYDB3c",
+            "ic": "Arduino UNO板 x 1、蜂鳴器 x 1、LED x 8、220Ω電阻 x 8",
+            "purpose": "熟悉使用Arduino同時控制蜂鳴器與LED。",
+            "results": "以Arduino板及程式碼控制蜂鳴器播出的聲音，並使對應音階的8顆LED隨聲音發亮。"
+        },{
+            "courseclass":"light",
+            "fulltitle":"蜂鳴器電子琴",
+            "logicdiagram": "images/buzzerPiano.png",
+            "filmurl": "https://youtu.be/PLP139Lrke4",
+            "ic": "Arduino UNO板 x 1、蜂鳴器 x 1、按鈕 x 8",
+            "purpose": "熟悉使用Arduino控制蜂鳴器聲音。",
+            "results": "以Arduino板及程式碼進行設定，操作按鈕使蜂鳴器發出聲音。"
+        }]
     }
 ]
