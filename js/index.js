@@ -5,6 +5,7 @@ $(document).ready(function () {
     dataType: "json",
     success: function (data) {
       //生成課程
+      $('.loading').css('display','none');
       data.map((course) => {
         var card = `
           <div class="mt-4 col-md-4 col-sm-6 course_cell">

@@ -9,6 +9,7 @@ $(document).ready(function () {
     dataType: "json",
     success: function (data) {
       //生成實驗內容詳細
+      $('.loading').css('display','none');
       data[courseID].details.map((course) => {
         var card = `
           <div class="coursebg_${course.courseclass}">
