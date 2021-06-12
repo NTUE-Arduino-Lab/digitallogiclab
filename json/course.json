@@ -161,9 +161,9 @@
             "fulltitle":"按鈕控制LED點矩陣",
             "logicdiagram": "images/LEDmatrixwithbutton.png",
             "filmurl": "https://youtu.be/GzPD7XF-P8c",
-            "ic": "Arduino UNO板 x 1、按鈕 x 1、LED Matrix x 1",
+            "ic": "Arduino UNO板 x 1、按鈕 x 1、LED Matrix x 1、74LS595 x 2",
             "purpose": "熟悉使用Arduino控制LED點矩陣。",
-            "results": "以Arduino板及程式碼進行LED點矩陣控制，操作按鈕控制訊號，顯示不同圖案。"
+            "results": "以Arduino板、74LS595數位過沖接腳及程式碼進行LED點矩陣控制，操作按鈕控制訊號，顯示不同圖案。"
         }]
     },
     {
@@ -220,6 +220,22 @@
             "ic": "Arduino UNO板 x 1、蜂鳴器 x 1、按鈕 x 8",
             "purpose": "熟悉使用Arduino控制蜂鳴器聲音。",
             "results": "以Arduino板及程式碼進行設定，操作按鈕使蜂鳴器發出聲音。"
+        }]
+    },
+    {
+        "_id":10,
+        "title": "多工",
+        "entitle": "Multiplexing",
+        "img": "images/polling.png",
+        "colorclass":"color_bud",
+        "details": [{
+            "courseclass":"dark",
+            "fulltitle":"分時多工-蜂鳴器與LED點矩陣",
+            "logicdiagram": "images/polling.png",
+            "filmurl": "https://youtu.be/wasBLGWDUog",
+            "ic": "Arduino UNO板 x 1、蜂鳴器 x 1、可變電阻 x 1、按鈕 x 1、LED Matrix x 1、74LS595 x 2",
+            "purpose": "熟悉使用Polling讓Arduino做到分時多工",
+            "results": "以Arduino板及程式碼同時控制蜂鳴器播出的聲音與LED點矩陣顯示圖案，操作按鈕可讓LED點矩陣更換圖案。"
         }]
     }
 ]
