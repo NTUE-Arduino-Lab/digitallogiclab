@@ -225,7 +225,7 @@
     {
         "_id":10,
         "title": "多工",
-        "entitle": "Multiplexing",
+        "entitle": "MultiTasking",
         "img": "images/polling.png",
         "colorclass":"color_bud",
         "details": [{
