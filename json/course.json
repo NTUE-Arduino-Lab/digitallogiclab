@@ -268,5 +268,25 @@
         "results": "以Arduino板及程式碼同時控制蜂鳴器播出的聲音與LED點矩陣顯示圖案，操作按鈕可讓LED點矩陣更換圖案。"
       }
     ]
+  },
+  {
+    "_id": 11,
+    "title": "邏輯筆",
+    "entitle": "CHY 610 Logic Test Pen",
+    "img": "images/logic_pen.jpg",
+    "colorclass": "color_tea",
+    "basicUse": true,
+    "details": [
+      {
+        "courseclass": "dark",
+        "fulltitle": "邏輯筆使用教學",
+        "logicdiagram": "images/logic_pen.jpg",
+        "filmurl": "https://www.youtube.com/watch?v=JZCCeTH2g4I",
+        "description": "步驟： </br> 1.先讓邏輯筆的正負極接上電源供應器的正負極，正接正 負接負  </br>2.確定邏輯筆上的兩個按鈕分別是在CMOS和PULSE的狀態 </br>3.確定邏輯筆能正常使用，在戳正極時會亮紅燈'HI'，戳負極時亮綠燈'LO' </br>4.接下來可以開始檢測線路的邏輯是否正常</br>注意：</br>邏輯筆有一段緩衝帶不會亮任何燈。在使用5V的電源時，LED的電壓（2....V）剛好在那個緩衝地帶，所以測量LED旁的電路可以先將LED拔起",
+        "ic": "",
+        "purpose": "",
+        "results": ""
+      }
+    ]
   }
 ]

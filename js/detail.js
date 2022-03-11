@@ -11,7 +11,9 @@ $(document).ready(function () {
       //生成實驗內容詳細
       $('.loading').css('display','none');
       data[courseID].details.map((course) => {
-        var card = `
+        // course.description等等內容前面新增了判斷，會先確認json有內容
+        //2022/3/11 By賴光韜
+          var card = `
           <div class="coursebg_${course.courseclass}">
             <div class="container course-container">
               <div class="row">
@@ -32,15 +34,19 @@ $(document).ready(function () {
                   <div class="row" style="justify-content: center;">
                     <div class="col-lg-12 col-lg-offset-2">
                       <div class="course-content">
+                      ${course.description?(` <p>${course.description} </p>`):("")}
+                      ${course.purpose?(`
                         <p>
                           <strong>實驗目的：</strong>${course.purpose}
-                        </p>
+                        </p>`):("")}
+                        ${course.results?(`
                         <p>
                           <strong>實驗成果：</strong>${course.results}
-                        </p>
+                        </p>`):("")}
+                        ${course.ic?(`
                         <p>
                           <strong>使用元件：</strong>${course.ic}
-                        </p>
+                        </p>`):("")}
                       </div>
                     </div>
                   </div>
@@ -49,6 +55,8 @@ $(document).ready(function () {
             </div>
           </div>`;
         $(".detail").append(card);
+        
+     
       });
     },
     error: function () {
