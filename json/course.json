@@ -288,5 +288,25 @@
         "results": ""
       }
     ]
+  },
+  {
+    "_id": 12,
+    "title": "麵包板用電源模組",
+    "entitle": "Breadboard Power Supply Module ",
+    "img": "images/power.jpg",
+    "colorclass": "color_tea",
+    "basicUse": true,
+    "details": [
+      {
+        "courseclass": "dark",
+        "fulltitle": "電源模組使用教學",
+        "logicdiagram": "images/power.jpg",
+        "filmurl": "https://www.youtube.com/watch?v=wQYzvc7AM_4",
+        "description": "步驟： </br> 1.將use to usb線分別插入電源模組和電腦(或行充)  </br>2.將電源模組插入麵包版上後，記得按下按鈕開啟電源   </br>注意：</br>電源模組主要提供兩對正負接腳,使用時注意看上方的+ , - 符號",
+        "ic": "",
+        "purpose": "",
+        "results": ""
+      }
+    ]
   }
 ]
