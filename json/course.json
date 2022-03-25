@@ -92,7 +92,7 @@
         "fulltitle": "十六進上數漣波計數器 Hexadecimal Ripple Counter",
         "logicdiagram": "images/hexadecimal_ripple_counter.png",
         "filmurl": "https://youtu.be/1SCWbI19K1E",
-        "ic": "74LS00(NAND) x 1、74LS112(JK FF) x 2、220Ω電阻 x 5、LED x 5、1KΩ排組 x 1、4pin DIP-Switch x 1",
+        "ic": "74LS112(JK FF) x 2、220Ω電阻 x 5、LED x 5、1KΩ排組 x 1、4pin DIP-Switch x 1",
         "purpose": "熟悉非同步計數器運作原理。",
         "results": "以SR閂鎖產生時脈，並以四組JK正反器連接，實作出16進位非同步上數計數器功能。"
       },
@@ -101,7 +101,7 @@
         "fulltitle": "十進上數漣波計數器 Decimal Ripple Counter",
         "logicdiagram": "images/decimal_ripple_counter.png",
         "filmurl": "https://youtu.be/7THQth0oQQI",
-        "ic": "74LS00(NAND) x 1、74LS112(JK FF) x 2、74LS08(AND) x 1、220Ω電阻 x 5、LED x 5、1KΩ排組 x 1、4pin DIP-Switch x 1",
+        "ic": "74LS00(NAND) x 1、74LS112(JK FF) x 2、220Ω電阻 x 5、LED x 5、1KΩ排組 x 1、4pin DIP-Switch x 1",
         "purpose": "熟悉非同步計數器運作原理。",
         "results": "接續16進位漣波計數器實驗，增設AND閘運算，當數字大於10進行Clear，達到10進位計數功能。"
       }
