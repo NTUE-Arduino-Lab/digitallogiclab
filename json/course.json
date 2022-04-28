@@ -10,7 +10,7 @@
         "courseclass": "light",
         "fulltitle": "全加器 Full Adder",
         "logicdiagram": "images/fulladder.png",
-        "filmurl": "https://youtu.be/WzfK1mW3ZE4",
+        "filmurl": ["https://youtu.be/WzfK1mW3ZE4"],
         "ic": "74LS86(XOR) x 1、74LS08(AND) x 1、74LS32(OR) x 1、220Ω電阻 x 2、LED x 2、KΩ排組x 1、4pin DIP-Switch x 1",
         "purpose": "了解二進位中加法運算及進位機制。",
         "results": "製作全加器，輸入三訊號為被加數A及加數B、以及進位數C，觀察運算後結果。"
@@ -19,7 +19,7 @@
         "courseclass": "dark",
         "fulltitle": "全減器 Full Subtracter",
         "logicdiagram": "images/fullsubtracter.png",
-        "filmurl": "https://youtu.be/XJCpkUIRE90",
+        "filmurl": ["https://youtu.be/XJCpkUIRE90"],
         "ic": "74LS86(XOR) x 1、74LS08(AND) x 1、74LS32(OR) x 1、74LS04(NOT) x 1、220Ω電阻 x 2、LED x 2、1KΩ排組 x 1、4pin DIP-Switch x 1",
         "purpose": "了解二進位中減法運算及借位機制。",
         "results": "製作全減器，輸入三訊號為被減數A及減數B、以及借位數C，觀察運算後結果。"
@@ -37,7 +37,7 @@
         "courseclass": "dark",
         "fulltitle": "七段顯示器 Seven Segment Display",
         "logicdiagram": "images/seven_segment.png",
-        "filmurl": "https://youtu.be/e8KBW_GqkpI",
+        "filmurl": ["https://youtu.be/e8KBW_GqkpI"],
         "ic": "74LS47 x 1、7-seg LED x 1、220Ω電阻 x 8、1KΩ排組 x 1、4pin DIP-Switch x 1",
         "purpose": "了解七段顯示器運作方式。",
         "results": "以74LS47元件進行七段顯示器控制，並操作4pin DIP-Switch設定訊號，依續顯示0~9數字。"
@@ -55,7 +55,7 @@
         "courseclass": "light",
         "fulltitle": "時脈 Clock（SR閂鎖 SR Latch）",
         "logicdiagram": "images/clock.png",
-        "filmurl": "https://youtu.be/8Ra3l-QJCvE",
+        "filmurl": ["https://youtu.be/8Ra3l-QJCvE"],
         "ic": "74LS00(NAND) x 2、220Ω電阻 x 1、LED x 1、1KΩ排組 x 1、4pin DIP-Switch x 1",
         "purpose": "熟悉閂鎖及正反器運作。",
         "results": "製作出SR閂鎖產生時脈並測量真值表。"
@@ -64,7 +64,7 @@
         "courseclass": "dark",
         "fulltitle": "JK正反器 JK Flip-Flop",
         "logicdiagram": "images/jkff.png",
-        "filmurl": "https://youtu.be/-zgBhI1hS9g",
+        "filmurl": ["https://youtu.be/-zgBhI1hS9g"],
         "ic": "74LS00(NAND) x 2、74LS112(JK FF) x 1、220Ω電阻 x 2、LED x 2、1KΩ排組 x 2、4pin DIP-Switch x 2",
         "purpose": "熟悉JK型正反器運作。",
         "results": "以SR閂鎖產生時脈，進行JK正反器實驗並測量真值表。"
@@ -73,7 +73,7 @@
         "courseclass": "light",
         "fulltitle": "D型正反器 D Flip-Flop",
         "logicdiagram": "images/dff.png",
-        "filmurl": "https://youtu.be/wFPujGXpnJs",
+        "filmurl": ["https://youtu.be/wFPujGXpnJs"],
         "ic": "74LS00(NAND) x 2、74LS74(D FF) x 1、220Ω電阻 x 2、LED x 2、1KΩ排組 x 2、4pin DIP-Switch x 2",
         "purpose": "熟悉D型正反器運作。",
         "results": "以SR閂鎖產生時脈，進行D正反器實驗並測量真值表。"
@@ -91,7 +91,7 @@
         "courseclass": "light",
         "fulltitle": "十六進上數漣波計數器 Hexadecimal Ripple Counter",
         "logicdiagram": "images/hexadecimal_ripple_counter.png",
-        "filmurl": "https://youtu.be/1SCWbI19K1E",
+        "filmurl": ["https://youtu.be/1SCWbI19K1E"],
         "ic": "74LS112(JK FF) x 2、220Ω電阻 x 5、LED x 5、1KΩ排組 x 1、4pin DIP-Switch x 1",
         "purpose": "熟悉非同步計數器運作原理。",
         "results": "以SR閂鎖產生時脈，並以四組JK正反器連接，實作出16進位非同步上數計數器功能。"
@@ -100,7 +100,7 @@
         "courseclass": "dark",
         "fulltitle": "十進上數漣波計數器 Decimal Ripple Counter",
         "logicdiagram": "images/decimal_ripple_counter.png",
-        "filmurl": "https://youtu.be/7THQth0oQQI",
+        "filmurl": ["https://youtu.be/7THQth0oQQI"],
         "ic": "74LS00(NAND) x 1、74LS112(JK FF) x 2、220Ω電阻 x 5、LED x 5、1KΩ排組 x 1、4pin DIP-Switch x 1",
         "purpose": "熟悉非同步計數器運作原理。",
         "results": "接續16進位漣波計數器實驗，增設AND閘運算，當數字大於10進行Clear，達到10進位計數功能。"
@@ -118,7 +118,7 @@
         "courseclass": "dark",
         "fulltitle": "八進上數同步計數器 Octal Synchronous Counter",
         "logicdiagram": "images/octal_synchronous_counter.png",
-        "filmurl": "https://youtu.be/dIR81fGV2DM",
+        "filmurl": ["https://youtu.be/dIR81fGV2DM"],
         "ic": "74LS00(NAND) x 1、74LS112(JK FF) x 2、74LS08(AND) x 1、220Ω電阻 x 4、LED x 4、1KΩ排組 x 1、4pin DIP-Switch x 1",
         "purpose": "熟悉同步計數器運作原理。",
         "results": "以SR閂鎖產生時脈，三組JK正反器實作出8進位同步計數器。"
@@ -136,7 +136,7 @@
         "courseclass": "dark",
         "fulltitle": "狀態機 State Machine",
         "logicdiagram": "images/statemachine.png",
-        "filmurl": "https://youtu.be/Y7Fm5O0hSjg",
+        "filmurl": ["https://youtu.be/Y7Fm5O0hSjg"],
         "ic": "74LS00(NAND) x 1、74LS02(NOT) x 1、74LS08(AND) x 2、74LS86(XOR) x 1、74LS112(JK FF) x 1、220Ω電阻 x 3、LED x 3、1KΩ排組 x 2、4pin DIP-Switch x 2",
         "purpose": "熟悉狀態機運作原理。",
         "results": "依照題目所示狀態圖，以SR閂鎖產生時脈，二組JK正反器實現此同步順序邏輯電路。"
@@ -154,7 +154,7 @@
         "courseclass": "dark",
         "fulltitle": "順序加法器 Sequential Adder",
         "logicdiagram": "images/sequentialadder.png",
-        "filmurl": "https://youtu.be/FpY6VqKJCaY",
+        "filmurl": ["https://youtu.be/FpY6VqKJCaY"],
         "ic": "74LS00(NAND) x 1、74LS08(AND) x 2、74LS32(OR) x 1、74LS86(XOR) x 1、74LS74(D FF) x 1、220Ω電阻 x 4、LED x 4、1KΩ排組 x 1、4pin DIP-Switch x 1",
         "purpose": "熟悉順序加法器運作原理。",
         "results": "將全加器與一組D型正反器組合在一起，進行連續多位元加法。"
@@ -172,7 +172,7 @@
         "courseclass": "light",
         "fulltitle": "按鈕控制七段顯示器",
         "logicdiagram": "images/sevensegwithbutton.png",
-        "filmurl": "https://youtu.be/fv_YNPAof4Y",
+        "filmurl": ["https://youtu.be/fv_YNPAof4Y"],
         "ic": "Arduino UNO板 x 1、按鈕 x 1、7-seg LED x 1、220Ω電阻 x 7",
         "purpose": "熟悉使用Arduino控制七段顯示器。",
         "results": "以Arduino板及程式碼進行七段顯示器控制，操作按鈕控制訊號，依續顯示0~9數字。"
@@ -181,7 +181,7 @@
         "courseclass": "dark",
         "fulltitle": "按鈕控制LED點矩陣",
         "logicdiagram": "images/LEDmatrixwithbutton.png",
-        "filmurl": "https://youtu.be/GzPD7XF-P8c",
+        "filmurl": ["https://youtu.be/GzPD7XF-P8c"],
         "ic": "Arduino UNO板 x 1、按鈕 x 1、LED Matrix x 1、74LS595 x 2",
         "purpose": "熟悉使用Arduino控制LED點矩陣。",
         "results": "以Arduino板、74LS595數位過沖接腳及程式碼進行LED點矩陣控制，操作按鈕控制訊號，顯示不同圖案。"
@@ -199,7 +199,7 @@
         "courseclass": "light",
         "fulltitle": "可變電阻控制LED",
         "logicdiagram": "images/variableResistor.png",
-        "filmurl": "https://youtu.be/NUShNWA82Sc",
+        "filmurl": ["https://youtu.be/NUShNWA82Sc","https://www.youtube.com/shorts/KBnXt8bBMRI"],
         "ic": "Arduino UNO板 x 1、可變電阻 x 1、LED x 1、220Ω電阻 x 1",
         "purpose": "熟悉使用Arduino類比介面與可變電阻",
         "results": "以Arduino板及程式碼進行設定，操作可變電阻改變輸入的類比訊號，調整LED閃爍的頻率。"
@@ -208,7 +208,7 @@
         "courseclass": "dark",
         "fulltitle": "光敏電阻控制LED",
         "logicdiagram": "images/photoresistor.png",
-        "filmurl": "https://youtu.be/k3DSc-HmceA",
+        "filmurl": ["https://youtu.be/k3DSc-HmceA","https://youtu.be/zu7MAWCT9Gg"],
         "ic": "Arduino UNO板 x 1、光敏電阻 x 1、LED x 1、220Ω電阻 x 2",
         "purpose": "熟悉使用Arduino類比介面與光敏電阻。",
         "results": "以Arduino板及程式碼進行設定，控制光源大小以改變光敏電阻輸入的類比訊號，調整LED的亮度。"
@@ -226,7 +226,7 @@
         "courseclass": "light",
         "fulltitle": "蜂鳴器調整音量",
         "logicdiagram": "images/buzzerVolume.png",
-        "filmurl": "https://youtu.be/hb4kOciKVH0",
+        "filmurl": ["https://youtu.be/hb4kOciKVH0"],
         "ic": "Arduino UNO板 x 1、蜂鳴器 x 1、可變電阻 x 1",
         "purpose": "熟悉使用Arduino控制蜂鳴器音量",
         "results": "以Arduino板及程式碼控制蜂鳴器播出的聲音，操作可變電阻改變電阻值，調整蜂鳴器的音量。"
@@ -235,7 +235,7 @@
         "courseclass": "dark",
         "fulltitle": "LED顯示目前蜂鳴器聲音音階",
         "logicdiagram": "images/buzzerLedScale.png",
-        "filmurl": "https://youtu.be/aqUOwPYDB3c",
+        "filmurl": ["https://youtu.be/aqUOwPYDB3c"],
         "ic": "Arduino UNO板 x 1、蜂鳴器 x 1、LED x 8、220Ω電阻 x 8",
         "purpose": "熟悉使用Arduino同時控制蜂鳴器與LED。",
         "results": "以Arduino板及程式碼控制蜂鳴器播出的聲音，並使對應音階的8顆LED隨聲音發亮。"
@@ -244,7 +244,7 @@
         "courseclass": "light",
         "fulltitle": "蜂鳴器電子琴",
         "logicdiagram": "images/buzzerPiano.png",
-        "filmurl": "https://youtu.be/PLP139Lrke4",
+        "filmurl": ["https://youtu.be/PLP139Lrke4"],
         "ic": "Arduino UNO板 x 1、蜂鳴器 x 1、按鈕 x 8",
         "purpose": "熟悉使用Arduino控制蜂鳴器聲音。",
         "results": "以Arduino板及程式碼進行設定，操作按鈕使蜂鳴器發出聲音。"
@@ -262,7 +262,7 @@
         "courseclass": "dark",
         "fulltitle": "分時多工-蜂鳴器與LED點矩陣",
         "logicdiagram": "images/polling.png",
-        "filmurl": "https://youtu.be/wasBLGWDUog",
+        "filmurl": ["https://youtu.be/wasBLGWDUog"],
         "ic": "Arduino UNO板 x 1、蜂鳴器 x 1、可變電阻 x 1、按鈕 x 1、LED Matrix x 1、74LS595 x 2",
         "purpose": "熟悉使用Polling讓Arduino做到分時多工",
         "results": "以Arduino板及程式碼同時控制蜂鳴器播出的聲音與LED點矩陣顯示圖案，操作按鈕可讓LED點矩陣更換圖案。"
@@ -281,7 +281,7 @@
         "courseclass": "dark",
         "fulltitle": "邏輯筆使用教學",
         "logicdiagram": "images/logic_pen.jpg",
-        "filmurl": "https://www.youtube.com/watch?v=JZCCeTH2g4I",
+        "filmurl": ["https://www.youtube.com/watch?v=JZCCeTH2g4I"],
         "description": "步驟： </br> 1.先讓邏輯筆的正負極接上電源供應器的正負極，正接正 負接負  </br>2.確定邏輯筆上的兩個按鈕分別是在CMOS和PULSE的狀態 </br>3.確定邏輯筆能正常使用，在戳正極時會亮紅燈'HI'，戳負極時亮綠燈'LO' </br>4.接下來可以開始檢測線路的邏輯是否正常</br>注意：</br>邏輯筆有一段緩衝帶不會亮任何燈。在使用5V的電源時，LED的電壓（2....V）剛好在那個緩衝地帶，所以測量LED旁的電路可以先將LED拔起",
         "ic": "",
         "purpose": "",
@@ -301,7 +301,7 @@
         "courseclass": "dark",
         "fulltitle": "電源模組使用教學",
         "logicdiagram": "images/power.jpg",
-        "filmurl": "https://www.youtube.com/watch?v=wQYzvc7AM_4",
+        "filmurl": ["https://www.youtube.com/watch?v=wQYzvc7AM_4"],
         "description": "步驟： </br> 1.將use to usb線分別插入電源模組和電腦(或行充)  </br>2.將電源模組插入麵包版上後，記得按下按鈕開啟電源   </br>注意：</br>電源模組主要提供兩對正負接腳,使用時注意看上方的+ , - 符號",
         "ic": "",
         "purpose": "",
