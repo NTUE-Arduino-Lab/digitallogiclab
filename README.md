@@ -58,8 +58,8 @@ By 賴光韜 2022/3/11
 | title      | String | 中文課程類別名稱                                                               |
 | entitle    | String | 英文課程類別名稱                                                               |
 | img        | String | 課程類別圖片路徑，例："images/xxx.png"                                         |
-| colorclass | String | 課程卡片底色 css 的 class 名稱 （邏輯電路："color_tea"、Arduino："color_bud"） |
-
+| colorclass | String | 課程卡片底色 css 的 class 名稱 （邏輯電路："color_tea"、Arduino："color_bud"） 
+ |
 | basicUse | boolean | 如果是"基本器材使用教學"要加上這個判斷，若不是的話可以不加  
 | details | Array | 實驗詳細內容列表 |
 | courseclass | String | 實驗內容區塊底色 css 的 class 名稱 （單項實驗："dark"、多項實驗中的奇數項目："light"、多項實驗中的偶數項目："dark"） |
