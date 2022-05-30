@@ -272,9 +272,9 @@
         "fulltitle": "分時多工-蜂鳴器與七段顯示器",
         "logicdiagram": "images/buzzerAnd7.png",
         "filmurl": ["https://www.youtube.com/watch?v=jbzNDqRgwEs","https://www.youtube.com/shorts/4NoYcKxqhu0"],
-        "ic": "Arduino UNO板 x 1、蜂鳴器 x 1、可變電阻 x 1、按鈕 x 1、LED Matrix x 1、74LS595 x 2",
-        "purpose": "熟悉使用Polling讓Arduino做到分時多工",
-        "results": "以Arduino板及程式碼同時控制蜂鳴器播出的聲音與LED點矩陣顯示圖案，操作按鈕可讓LED點矩陣更換圖案。"
+        "ic": "Arduino UNO板 x 1、蜂鳴器 x 1、7-seg LED x 1",
+        "purpose": "讓Arduino做到分時多工",
+        "results": "以Arduino板及程式碼同時控制蜂鳴器播出的聲音與七段顯示器顯示數字。"
       }
     ]
   },
