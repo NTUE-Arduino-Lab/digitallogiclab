@@ -12,6 +12,28 @@ a:hover {
   text-decoration: none;
 }
 
+/* Download Link */
+.download_link {
+  background-color: #00979c;
+  color: #fff;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column-reverse;
+  width: 200px;
+  height: 50px;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 20px;
+  line-height: 45px;
+  margin: 40px auto;
+}
+
+.download_link:hover {
+  background-color: #c9e3ac;
+  color: #fff;
+}
+
 /* Divider Style */
 .divider--light,
 .divider--dark {
@@ -317,7 +339,7 @@ footer {
   }
 }
 .basic_use_layout {
-  width: 100%; !important
+  width: 100% !important;
 }
 @media screen and (max-width: 576px) {
   .course_layout {
