@@ -37,7 +37,7 @@
         "courseclass": "dark",
         "fulltitle": "七段顯示器 Seven Segment Display",
         "logicdiagram": "images/seven_segment.png",
-        "filmurl": ["https://youtu.be/e8KBW_GqkpI"],
+        "filmurl": ["https://youtu.be/V-lE7wDYyqc?si=CUDDkCN5RYB_YQ6E"],
         "ic": "74LS47 x 1、7-seg LED x 1、220Ω電阻 x 8、1KΩ排組 x 1、4pin DIP-Switch x 1",
         "purpose": "了解七段顯示器運作方式。",
         "results": "以74LS47元件進行七段顯示器控制，並操作4pin DIP-Switch設定訊號，依續顯示0~9數字。"
